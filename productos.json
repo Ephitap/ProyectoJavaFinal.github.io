@@ -41,8 +41,8 @@
     },
     {
         "id": "WarhammerTheHorusHeresy-02",
-        "titulo": "warhawk",
-        "imagen": "./img/horus/Warhawk.jpg",
+        "titulo": "Warhawk",
+        "imagen": "./img/horus/warhawk.jpg",
         "categoria": {
             "nombre": "Warhammer: The Horus Heresy",
             "id": "the-horus-heresy"
@@ -143,7 +143,7 @@
     {
         "id": "series-03",
         "titulo": "dutyCalls",
-        "imagen": "./img/series/dutycalls.jpg",
+        "imagen": "./img/series/dutyCalls.jpg",
         "categoria": {
             "nombre": "Warhammer Series",
             "id": "series"
