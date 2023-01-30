@@ -2,7 +2,7 @@
     {
         "id": "Warhammer40000-01",
         "titulo": "Twice Dead King RUIN",
-        "imagen": "./img/40000/TDK.jpg",
+        "imagen": "./img/40000/tdk.jpg",
         "categoria": {
             "nombre": "Warhammer 40000",
             "id": "40000"
@@ -22,7 +22,7 @@
     {
         "id": "Warhammer40000-03",
         "titulo": "Twice Dead King REIGN",
-        "imagen": "./img/40000/TDK2.jpg",
+        "imagen": "./img/40000/tdk2.jpg",
         "categoria": {
             "nombre": "Warhammer 40000",
             "id": "40000"
@@ -41,7 +41,7 @@
     },
     {
         "id": "WarhammerTheHorusHeresy-02",
-        "titulo": "WarHawk",
+        "titulo": "warhawk",
         "imagen": "./img/horus/Warhawk.jpg",
         "categoria": {
             "nombre": "Warhammer: The Horus Heresy",
@@ -133,7 +133,7 @@
     {
         "id": "series-02",
         "titulo": "Cains Last Stand",
-        "imagen": "./img/series/CAinLastStand.jpg",
+        "imagen": "./img/series/CainLastStand.jpg",
         "categoria": {
             "nombre": "Warhammer Series",
             "id": "series"
@@ -142,7 +142,7 @@
     },
     {
         "id": "series-03",
-        "titulo": "Duty CAlls",
+        "titulo": "dutyCalls",
         "imagen": "./img/series/dutycalls.jpg",
         "categoria": {
             "nombre": "Warhammer Series",
