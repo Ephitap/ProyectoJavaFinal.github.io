@@ -199,7 +199,7 @@ main {
   color: white;
   text-shadow: 0 2px 12px #000;
   font-family: 'League Gothic', sans-serif;
-  background-image: url(/img/space.jpg);
+  background-image: url(./img/space.jpg);
   width: 100%;
   /*---iframes---*/ }
   main h1 {
@@ -298,7 +298,7 @@ main {
     left: -400%; } }
 
 section {
-  background: url(../img/main.jpg);
+  background: url(./img/main.jpg);
   height: 972px;
   color: black;
   text-shadow: none;
