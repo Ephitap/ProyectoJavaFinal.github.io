@@ -1,0 +1,701 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url(../warhammer/img/);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+body {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden; }
+
+.gtco-testimonials {
+  position: relative;
+  margin-top: 30px; }
+  .gtco-testimonials h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 50px; }
+  .gtco-testimonials .owl-stage-outer {
+    padding: 30px 0; }
+  .gtco-testimonials .owl-nav {
+    display: none; }
+  .gtco-testimonials .owl-dots {
+    text-align: center; }
+    .gtco-testimonials .owl-dots span {
+      position: relative;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      display: block;
+      background: #fff;
+      border: 2px solid #01b0f8;
+      margin: 0 5px; }
+    .gtco-testimonials .owl-dots .active {
+      box-shadow: none; }
+      .gtco-testimonials .owl-dots .active span {
+        background: #01b0f8;
+        box-shadow: none;
+        height: 12px;
+        width: 12px;
+        margin-bottom: -1px; }
+  .gtco-testimonials .card {
+    background: #fff;
+    box-shadow: 0 8px 30px -7px #c9dff0;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 0; }
+    .gtco-testimonials .card .card-img-top {
+      max-width: 100px;
+      border-radius: 50%;
+      margin: 15px auto 0;
+      box-shadow: 0 8px 20px -4px #95abbb;
+      width: 100px;
+      height: 100px; }
+    .gtco-testimonials .card h5 {
+      color: #01b0f8;
+      font-size: 21px;
+      line-height: 1.3; }
+      .gtco-testimonials .card h5 span {
+        font-size: 18px;
+        color: #666666; }
+    .gtco-testimonials .card p {
+      font-size: 18px;
+      color: #555;
+      padding-bottom: 15px; }
+  .gtco-testimonials .active {
+    opacity: 0.5;
+    transition: all 0.3s; }
+  .gtco-testimonials .center {
+    opacity: 1; }
+    .gtco-testimonials .center h5 {
+      font-size: 24px; }
+      .gtco-testimonials .center h5 span {
+        font-size: 20px; }
+    .gtco-testimonials .center .card-img-top {
+      max-width: 100%;
+      height: 120px;
+      width: 120px; }
+
+@media (max-width: 767px) {
+  .gtco-testimonials {
+    margin-top: 20px; } }
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+  outline: 0; }
+
+.owl-carousel button.owl-dot {
+  outline: 0; }
+
+header {
+  background: url(../img/40k-header.jpg);
+  border: 2px solid black;
+  background-size: auto;
+  width: 100%;
+  font-family: 'League Gothic', sans-serif;
+  color: white;
+  text-shadow: 0 22px 22px #000; }
+
+.nav_checkbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 20px 20px;
+  z-index: 3; }
+
+.logo-header {
+  transform: translateY(10px); }
+
+.logo-header img {
+  position: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px; }
+
+.tab-nav {
+  outline: none;
+  display: none; }
+
+.label {
+  display: none;
+  color: white; }
+
+.burger {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin-top: 5px; }
+
+.content_nav {
+  padding-top: 10px;
+  list-style: none;
+  /*elimina los puntos del li*/
+  display: flex;
+  gap: 170px;
+  font-size: 27PX;
+  margin-bottom: 5px;
+  text-align: center;
+  padding-left: 100px; }
+
+.content_nav ul {
+  text-align: center; }
+
+.content_nav li {
+  display: inline-block;
+  padding-right: 10px; }
+
+.content_nav li a {
+  text-decoration: none;
+  color: white;
+  position: relative; }
+
+.content_nav li a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform-origin: right;
+  transform: scale(0, 1);
+  transition: transform ease-in-out 0.5s; }
+
+.content_nav li a:hover {
+  color: #215f1b; }
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 100%; } }
+
+@media screen and (max-width: 770px) {
+  .label {
+    display: grid;
+    cursor: pointer;
+    grid-column: 3;
+    padding-right: 10px; }
+  .content_nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: 1/4;
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease-in-out 0.6s;
+    gap: 10px;
+    padding-left: 0px; }
+  .nav_checkbox input:checked ~ .content_nav {
+    max-height: 500px; }
+  .content_nav li {
+    padding: 15px 0px; } }
+
+main {
+  color: white;
+  text-shadow: 0 2px 12px #000;
+  font-family: 'League Gothic', sans-serif;
+  background-image: url(/img/space.jpg);
+  width: 100%;
+  /*---iframes---*/ }
+  main h1 {
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    font-size: 100px;
+    line-height: 500px;
+    height: 50%;
+    width: 100%; }
+    @media (max-width: 768px) {
+      main h1 {
+        font-size: 50px;
+        line-height: 547px; } }
+  main h2 {
+    text-align: center;
+    z-index: 1;
+    
+    font-size: 70px;
+    line-height: 250px;
+    height: 50%;
+    width: 100%; }
+    @media (max-width: 768px) {
+      main h2 {
+        font-size: 25px;
+        line-height: 50px; } }
+  main .iframeVideo {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    border-color: #07140a; }
+    @media (max-width: 768px) {
+      main .iframeVideo {
+        max-width: 100%;
+        height: 50%;
+        display: flex; } }
+  main .iframeVideo2 {
+    height: 250px;
+    width: 45%;
+    padding-top: 30%;
+    z-index: 2;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border-color: #07140a; }
+    @media (max-width: 768px) {
+      main .iframeVideo2 {
+        padding-top: 295px;
+        width: 100%; } }
+  main .horus-titulo img {
+    height: 563px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 425px) and (max-width: 768px) {
+      main .horus-titulo img {
+        height: 328px; } }
+    @media only screen and (max-width: 667px) {
+      main .horus-titulo img {
+        height: 211px; } }
+  main .logoGW img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  main .slider {
+    overflow: hidden; }
+  main .slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    right: 0;
+    animation: 22s slider infinite; }
+  main .slider figure img {
+    width: 20%;
+    float: left; }
+
+@keyframes slider {
+  0% {
+    left: 0; }
+  20% {
+    left: 0; }
+  25% {
+    left: -100%; }
+  45% {
+    left: -100%; }
+  50% {
+    left: -200%; }
+  70% {
+    left: -200%; }
+  75% {
+    left: -300%; }
+  95% {
+    left: -300%; }
+  100% {
+    left: -400%; } }
+
+section {
+  background: url(../img/main.jpg);
+  height: 972px;
+  color: black;
+  text-shadow: none;
+  /**/ }
+  section h3 {
+    font-family: 'League Gothic', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px; }
+  section p {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    vertical-align: middle;
+    font-size: 1.2rem; }
+  section button {
+    display: block;
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+    background-color: #37b62c;
+    border-color: aliceblue;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 36px;
+    color: aliceblue; }
+    section button:hover {
+      background-color: #215f1b; }
+  section h4 {
+    font-family: 'League Gothic', sans-serif;
+    text-align: center;
+    font-size: 44px;
+    padding-top: 10px; }
+  section .container-section {
+    width: 700px;
+    height: 100px;
+    display: block;
+    margin: 0 auto; }
+    @media (max-width: 768px) {
+      section .container-section {
+        width: 100%; } }
+  section .container-section img {
+    padding-top: 10px;
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    @media (min-width: 425px) and (max-width: 768px) {
+      section .container-section img {
+        height: 480px; } }
+    @media only screen and (max-width: 667px) {
+      section .container-section img {
+        height: 200px;
+        width: 419px; } }
+  section article .container-section-libro img {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  section article .container-section-mesa img {
+    height: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  section .wrapper {
+    width: 100%; }
+  section .carousel {
+    max-width: 980px;
+    margin: auto;
+    padding: 0; }
+  section .carousel .card {
+    color: #fff;
+    text-align: center;
+    margin: 5px 0;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    width: 300px;
+    display: flex;
+    position: relative;
+    vertical-align: middle; }
+    section .carousel .card h1 {
+      font-family: 'League Gothic', sans-serif;
+      font-size: 36px;
+      line-height: 100px;
+      color: white; }
+    section .carousel .card p {
+      padding-top: 100px;
+      font-family: 'League Gothic', sans-serif;
+      font-size: 20px;
+      vertical-align: middle; }
+  section .carousel .card-1 {
+    background-image: url(/img/card-sister.jpg); }
+  section .carousel .card-2 {
+    background: url(/img/card-space-marine.jpg); }
+  section .carousel .card-3 {
+    background: url(/img/card-mechanicus.jpg); }
+  section .carousel .card-4 {
+    background: url(/img/card-custodes.jpg); }
+  section .carousel .card-5 {
+    background: url(/img/card-astra-militarum.jpg); }
+  section .carousel .card-6 {
+    background: url(/img/card-imperial-knight.jpg); }
+  section .carousel .card-7 {
+    background: url(/img/card-caos-marine.jpg); }
+  section .carousel .card-8 {
+    background: url(/img/card-drukhari.jpg); }
+  section .owl-dots {
+    text-align: center;
+    margin-top: 40px;
+    display: none; }
+  section .owl-dot {
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #0072bc !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease; }
+  section .owl-dot.active,
+  section .owl-dot:hover {
+    background: #0072bc !important; }
+
+.section-games {
+  height: 800px; }
+  .section-games h4 {
+    padding-top: 30px; }
+  .section-games h6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    font-weight: lighter; }
+    @media (max-width: 768px) {
+      .section-games h6 {
+        margin-right: 50px;
+        margin-left: 50px; } }
+  .section-games .slider {
+    overflow: hidden; }
+  .section-games .slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    right: 0;
+    animation: 22s slider infinite; }
+  .section-games .slider figure img {
+    width: 20%;
+    float: left; }
+
+@keyframes slider {
+  0% {
+    left: 0; }
+  20% {
+    left: 0; }
+  25% {
+    left: -100%; }
+  45% {
+    left: -100%; }
+  50% {
+    left: -200%; }
+  70% {
+    left: -200%; }
+  75% {
+    left: -300%; }
+  95% {
+    left: -300%; }
+  100% {
+    left: -400%; } }
+
+.section-horus-heresy {
+  height: 1100px; }
+  @media (max-width: 768px) {
+    .section-horus-heresy {
+      height: 1800px; } }
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .section-libros {
+    height: 1600px; } }
+
+@media only screen and (max-width: 667px) {
+  .section-libros {
+    height: 3500px; } }
+
+.section-games-sub-factions {
+  background-image: url(/img/bg-space-marine.jpg);
+  height: 2000px; }
+  .section-games-sub-factions p {
+    margin: 0 0 1.5em;
+    box-sizing: inherit;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black; }
+  .section-games-sub-factions img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; }
+  @media (max-width: 768px) {
+    .section-games-sub-factions {
+      height: 1300px; }
+      .section-games-sub-factions p {
+        margin-right: 50px;
+        margin-left: 50px; } }
+
+.section-libros {
+  height: 900px; }
+  @media (max-width: 1280px) {
+    .section-libros {
+      height: 2000px; } }
+  @media (max-width: 765px) {
+    .section-libros {
+      height: 4000px; } }
+  .section-libros .search-bar {
+    width: 100%;
+    height: 20%;
+    background-color: #eaeef100;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .section-libros .search-bar form {
+      background-color: #fff;
+      width: 600px;
+      height: 55p;
+      display: flex; }
+      .section-libros .search-bar form input {
+        flex: 1;
+        border: none;
+        outline: none; }
+      .section-libros .search-bar form button {
+        padding: 10px 50px;
+        border: none;
+        color: #fff;
+        letter-spacing: 1px;
+        cursor: pointer; }
+      .section-libros .search-bar form i {
+        align-self: center;
+        padding: 10px 20px;
+        color: gray; }
+    @media (max-width: 765px) {
+      .section-libros .search-bar {
+        height: 3%; } }
+  .section-libros .container-libros {
+    display: flex;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; }
+    @media (max-width: 1280px) {
+      .section-libros .container-libros {
+        flex-wrap: wrap;
+        justify-content: center; } }
+  .section-libros .card-libros {
+    width: min-content;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 30px black;
+    transition: .4s ease; }
+    .section-libros .card-libros:hover {
+      transform: scale(1.01); }
+    @media (max-width: 1280px) {
+      .section-libros .card-libros {
+        margin: 20px; } }
+    .section-libros .card-libros img {
+      height: 150px;
+      padding: 0 20px;
+      text-align: center;
+      background-color: #fff; }
+    .section-libros .card-libros h3 {
+      color: black;
+      font-size: 22px;
+      margin-top: 5px; }
+    .section-libros .card-libros p {
+      color: #b12828;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 8px 0 22px;
+      text-align: center; }
+    .section-libros .card-libros .iconos {
+      text-align: center; }
+      .section-libros .card-libros .iconos i {
+        letter-spacing: 10px; }
+    .section-libros .card-libros button {
+      cursor: pointer;
+      color: #fff;
+      width: 100%;
+      height: 60px;
+      font-size: 22px;
+      font-weight: 600; }
+  .section-libros .container-pagination {
+    text-align: center;
+    padding-top: 60px; }
+    .section-libros .container-pagination .pagination {
+      display: inline-block; }
+      .section-libros .container-pagination .pagination a {
+        color: black;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none; }
+      .section-libros .container-pagination .pagination a.active {
+        background-color: #4CAF50;
+        color: white; }
+      .section-libros .container-pagination .pagination a:hover:not(.active) {
+        background-color: white; }
+
+.container-formulario form {
+  display: grid;
+  padding: 1em;
+  background: #f9f9f900;
+  border: 1px solid #868686;
+  margin: 2rem auto 0 auto;
+  max-width: 600px;
+  padding: 1em; }
+  .container-formulario form form input {
+    background: #fff;
+    border: 1px solid #9c9c9c; }
+  .container-formulario form form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0; }
+
+.container-formulario label {
+  padding: 0.5em 0.5em 0.5em 0; }
+
+.container-formulario input {
+  padding: 0.7em;
+  margin-bottom: 0.5rem; }
+
+@media (min-width: 400px) {
+  .container-formulario form {
+    grid-template-columns: 200px 1fr;
+    grid-gap: 16px; }
+  .container-formulario label {
+    text-align: right;
+    grid-column: 1 / 2; }
+  .container-formulario input,
+  .container-formulario button {
+    grid-column: 2 / 3; } }
+
+footer {
+  background-color: #000;
+  color: #fff;
+  width: auto;
+  position: flex;
+  bottom: 0;
+  left: 0;
+  padding: 2rem 8%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  footer .logo {
+    height: 100px;
+    margin-bottom: 1rem;
+    margin: auto; }
+  footer .social-icons-container, footer .footer-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem; }
+  footer .social-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+    border: 1px solid #f2f2f2;
+    background-image: url(../img/icons8-facebook-24.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem; }
+    footer .social-icon:hover {
+      background-color: #121212;
+      filter: invert(1); }
+  footer .social-icon:nth-last-of-type(2) {
+    background-image: url(../img/icons8-instagram-24.png); }
+  footer .social-icon:nth-last-of-type(3) {
+    background-image: url(../img/icons8-twitter-squared-24.png); }
+  footer .social-icon:nth-last-of-type(4) {
+    background-image: url(../img/icons8-youtube-24.png); }
+  footer .footer-menu-container {
+    list-style-type: none;
+    color: #f2f2f2;
+    font-size: 18px; }
+  footer .menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6; }
+    footer .menu-item:hover {
+      background-color: #121212;
+      filter: invert(1); }
+  footer .copyright {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+    font-family: 'Noto Sans',sans-serif; }
+
+    

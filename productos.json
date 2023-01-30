@@ -1,0 +1,163 @@
+[
+    {
+        "id": "Warhammer40000-01",
+        "titulo": "Twice Dead King RUIN",
+        "imagen": "./img/40000/TDK.jpg",
+        "categoria": {
+            "nombre": "Warhammer 40000",
+            "id": "40000"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "Warhammer40000-02",
+        "titulo": "Da Gobbo Dimiss",
+        "imagen": "./img/40000/gobo.jpg",
+        "categoria": {
+            "nombre": "Warhammer 40000",
+            "id": "40000"
+        },
+        "precio": 30000
+    },
+    {
+        "id": "Warhammer40000-03",
+        "titulo": "Twice Dead King REIGN",
+        "imagen": "./img/40000/TDK2.jpg",
+        "categoria": {
+            "nombre": "Warhammer 40000",
+            "id": "40000"
+        },
+        "precio": 20000
+    },
+    {
+        "id": "WarhammerTheHorusHeresy-01",
+        "titulo": "Lucercall Wars",
+        "imagen": "./img/horus/lupercall.jpg",
+        "categoria": {
+            "nombre": "Warhammer: The Horus Heresy",
+            "id": "the-horus-heresy"
+        },
+        "precio": 13400
+    },
+    {
+        "id": "WarhammerTheHorusHeresy-02",
+        "titulo": "WarHawk",
+        "imagen": "./img/horus/Warhawk.jpg",
+        "categoria": {
+            "nombre": "Warhammer: The Horus Heresy",
+            "id": "the-horus-heresy"
+        },
+        "precio": 33000
+    },
+    {
+        "id": "WarhammerTheHorusHeresy-03",
+        "titulo": "Fury of Magnus",
+        "imagen": "./img/horus/magnus.jpg",
+        "categoria": {
+            "nombre": "Warhammer: The Horus Heresy",
+            "id": "the-horus-heresy"
+        },
+        "precio": 22000
+    },
+    {
+        "id": "WarhammerHorror-01",
+        "titulo": "The Gnarled Bough",
+        "imagen": "./img/horror/gnarl.jpg",
+        "categoria": {
+            "nombre": "Warhammer Horror",
+            "id": "horror"
+        },
+        "precio": 73000
+    },
+    {
+        "id": "WarhammerHorror-02",
+        "titulo": "King of pigs",
+        "imagen": "./img/horror/king_of_pigs.jpg",
+        "categoria": {
+            "nombre": "Warhammer Horror",
+            "id": "horror"
+        },
+        "precio": 16000
+    },
+    {
+        "id": "WarhammerHorror-02",
+        "titulo": "Pain Engine",
+        "imagen": "./img/horror/pain_engine.jpg",
+        "categoria": {
+            "nombre": "Warhammer Horror",
+            "id": "horror"
+        },
+        "precio": 12000
+    },
+    
+    {
+        "id": "crime-01",
+        "titulo": "The solar War",
+        "imagen": "./img/crime/solar.jpg",
+        "categoria": {
+            "nombre": "Warhammer Crime",
+            "id": "crime"
+        },
+        "precio": 23000
+    },
+    {
+        "id": "crime-02",
+        "titulo": "the first wall",
+        "imagen": "./img/crime/wall.jpg",
+        "categoria": {
+            "nombre": "Warhammer Crime",
+            "id": "crime"
+        },
+        "precio": 43000
+    },
+    {
+        "id": "crime-03",
+        "titulo": "profit's ruin",
+        "imagen": "./img/crime/profits.jpg",
+        "categoria": {
+            "nombre": "Warhammer Crime",
+            "id": "crime"
+        },
+        "precio": 13000
+    },
+    {
+        "id": "series-01",
+        "titulo": "Death or Glory",
+        "imagen": "./img/series/DOG.jpg",
+        "categoria": {
+            "nombre": "Warhammer Series",
+            "id": "series"
+        },
+        "precio": 40000
+    },
+    {
+        "id": "series-02",
+        "titulo": "Cains Last Stand",
+        "imagen": "./img/series/CAinLastStand.jpg",
+        "categoria": {
+            "nombre": "Warhammer Series",
+            "id": "series"
+        },
+        "precio": 22400
+    },
+    {
+        "id": "series-03",
+        "titulo": "Duty CAlls",
+        "imagen": "./img/series/dutycalls.jpg",
+        "categoria": {
+            "nombre": "Warhammer Series",
+            "id": "series"
+        },
+        "precio": 24000
+    },
+    {
+        "id": "series-04",
+        "titulo": "Gaunt's gosths: Victory",
+        "imagen": "./img/series/victory.jpg",
+        "categoria": {
+            "nombre": "Warhammer Series",
+            "id": "series"
+        },
+        "precio": 50000
+    }
+]
